@@ -5,10 +5,10 @@ Rectangle {
     width:130
     height: 32
     border.width: 1
-    border.color: "#D27486"
+    border.color: "#3D3B93"
     property string label: "Ｒｅｂｏｏｔ"
     Text {
-        color: "#D27486"
+        color: "#3D3B93"
 	font.pixelSize : 14
         text: parent.label
         anchors.fill: parent

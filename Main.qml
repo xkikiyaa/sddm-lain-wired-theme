@@ -48,7 +48,7 @@ Rectangle {
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
 			text: "Ｕｓｅｒ ＩD:"
-			color: "#c1b492"
+			color: "#5eeff5"
 			font.pixelSize: 16
 		}
 		Qqc.TextField {
@@ -56,11 +56,11 @@ Rectangle {
 			Layout.alignment: Qt.AlignCenter
 			text: userModel.lastUser
 			style: TextFieldStyle {
-				textColor: "#c1b492"
+				textColor: "#5eeff5"
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#3d3b93"
 				}
 			}
 			KeyNavigation.backtab: shutdownBtn; KeyNavigation.tab: password
@@ -74,7 +74,7 @@ Rectangle {
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
 			text: "Ｐａｓｓｗｏｒｄ："
-			color: "#c1b492"
+			color: "#5eeff5"
 			font.pixelSize: 16
 		}
 		Qqc.TextField {
@@ -82,11 +82,11 @@ Rectangle {
 			echoMode: TextInput.Password
 			Layout.alignment: Qt.AlignCenter
 			style: TextFieldStyle {
-				textColor: "#c1b492"
+				textColor: "#5eeff5"
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#3d3b93"
 				}
 			}
 			KeyNavigation.backtab: username; KeyNavigation.tab: session
@@ -104,12 +104,12 @@ Rectangle {
 			width: 200
 			Rectangle {
 				anchors.fill: parent
-				color: "#d2738a"
+				color: "#3d3b93"
 			}
 			Qqc.Label {
 				Layout.alignment: Qt.AlignCenter
 				text: "Ｌｏｇｉｎ"
-				color: "#c1b492"
+				color: "#5eeff5"
 				font.pixelSize: 20
 			}
 			MouseArea {
@@ -174,10 +174,11 @@ Rectangle {
 		model: sessionModel
 		index: sessionModel.lastIndex
 		color: "#000"
-		borderColor: "#d2738a"
-		focusColor: "#d2738a"
-		hoverColor: "#d2738a"
-		textColor: "#c1b492"
+		borderColor: "#3d3b93"
+		focusColor: "#3d3b93"
+		hoverColor: "#3d3b93"
+		textColor: "#5eeff5"
+		menuColor: "#000"
 		arrowIcon: "angle-down.png"
 		KeyNavigation.backtab: password; KeyNavigation.tab: rebootBtn;
 	}
